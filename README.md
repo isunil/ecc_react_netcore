@@ -12,11 +12,17 @@ clone this code on to your local.
 Needs Node, .NetCore2 installed on your machine.
 
 ### Setup
+* cd to /ecc/
+* open vs studio run F5 or VS code run restore command
+
+```
+dotnet restore
+```
+
 * cd to /ecc.web.api/
 * open vs studio run F5 or VS code run dotnet below commands
 
 ```
-dotnet restore
 dotnet build
 dotnet run
 ```
